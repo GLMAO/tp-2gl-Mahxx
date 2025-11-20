@@ -1,0 +1,9 @@
+Builder : Facilite la création des cours sans modifier la classe → respecte OCP et SRP.
+
+Observer : Les observateurs dépendent d’une interface et non de classes concrètes → respecte DIP et OCP.
+
+Decorator : Ajoute des caractéristiques aux cours sans toucher à la classe de base → respecte OCP et LSP.
+
+ICours / Interfaces : Les interfaces sont simples et spécifiques → respecte ISP et DIP.
+
+GestionnaireEmploiDuTemps : Gère cours et notifications → ne respecte pas totalement SRP, mais les autres principes sont respectés.

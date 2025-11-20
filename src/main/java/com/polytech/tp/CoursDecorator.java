@@ -7,5 +7,6 @@ public abstract class CoursDecorator implements ICours {
         this.coursDecorated = cours;
     }
     
-    // TODO: Forcer l'implémentation des méthodes de ICours
+    public abstract String getDescription();
+    public abstract double getDuree();
 }
